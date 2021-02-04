@@ -1,0 +1,20 @@
+{
+  "name": "reactBootCamp",
+  "version": "1.0.0",
+  "description": "Javascript React Bootcamp Pract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahamidi/reactBootCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahamidi/reactBootCamp/issues"
+  },
+  "homepage": "https://github.com/sahamidi/reactBootCamp#readme"
+}
