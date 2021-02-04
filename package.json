@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sahamidi/reactBootCamp/issues"
   },
-  "homepage": "https://github.com/sahamidi/reactBootCamp#readme"
+  "homepage": "https://github.com/sahamidi/reactBootCamp#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
