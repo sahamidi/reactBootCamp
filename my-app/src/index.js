@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import './index.css'
 
 //always return jsx
 //stateless function
 
 function BookList() {
   return (
-    <section>
+    <section className='booklist'>
+      <Book />
+      <Book />
+      <Book />
       <Book />
     </section>
   )
@@ -14,8 +18,10 @@ function BookList() {
 
 let Book = () => {
   return (
-    <article>
+    <article className='book'>
       <Image></Image>
+      <Title />
+      <Author />
     </article>
   )
 }
@@ -26,5 +32,8 @@ let Image = () => (
     alt=''
   />
 )
+
+let Title = () => <h1>Atomic Habits</h1>
+let Author = () => <h4>James Clear</h4>
 
 ReactDom.render(<BookList />, document.getElementById('root'))
