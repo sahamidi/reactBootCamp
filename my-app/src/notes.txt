@@ -1,0 +1,15 @@
+spread operator
+
+destructuring 
+
+npm 
+
+reactapp
+
+import and export modules are ES6 specific
+
+path expectation for module import and export
+
+rafce - react short code to setup component file.
+
+https://app.netlify.com/sites/react-basics-bookls/overview
